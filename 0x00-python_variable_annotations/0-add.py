@@ -9,4 +9,8 @@
 """
 
 def add(a: float, b: float): -> float
+    """
+    Args: a: a float, b: another float
+    returns a float
+    """
     return (a + b)
