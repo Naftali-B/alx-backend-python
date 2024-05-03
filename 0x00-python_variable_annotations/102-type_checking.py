@@ -4,7 +4,6 @@
 """
 from typing import Tuple, List
 
-
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
     """
         Args:
