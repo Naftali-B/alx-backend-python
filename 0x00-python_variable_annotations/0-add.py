@@ -8,7 +8,7 @@
     and returns their sum as a float
 """
 
-def add(a: float, b: float): -> float
+def add(a: float, b: float) -> float:
     """
     Args: a: a float, b: another float
     returns a float
