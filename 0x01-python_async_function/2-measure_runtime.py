@@ -13,7 +13,7 @@ def measure_time(max_delay: int = 10, n: int = 0) -> float:
     """
         Args:
             n: int
-            max_delay: int
+            max_delay int: max wait
 
         Return:
             total_time / n : float
