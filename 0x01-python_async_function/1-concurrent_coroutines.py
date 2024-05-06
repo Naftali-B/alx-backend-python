@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """ async routine, wait_n """
+
 import asyncio
 import random
 from typing import List
 
 
-from basic_async_syntax import wait_random
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int = 0, max_delay: int = 10) -> List[float]:
@@ -15,7 +16,7 @@ async def wait_n(n: int = 0, max_delay: int = 10) -> List[float]:
             max_delay: max wait
 
         Return:
-            return the list of all the delays (float values)
+            list of all the delays: float
     """
     delays: List[float] = []
     tasks: List = []
@@ -28,4 +29,3 @@ async def wait_n(n: int = 0, max_delay: int = 10) -> List[float]:
         delays.append(delay)
 
     return delays
-
