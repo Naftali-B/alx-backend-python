@@ -6,7 +6,7 @@ import asyncio
 from typing import List
 
 
-from 1-concurrent_coroutines import wait_n
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 def measure_time(max_delay: int = 10, n: int = 0) -> float:
