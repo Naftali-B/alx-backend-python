@@ -34,8 +34,8 @@ class TestGetJson(unittest.TestCase):
     """Tests for get_json function"""
 
     @parameterized.expand([
-        ("http://example.com", {"payload": True}),
-        ("http://holberton.io", {"payload": False})
+        ("http://tack.plus", {"payload": True}),
+        ("http://tack.plus", {"payload": False})
     ])
     def test_get_json(self, url, expected_payload):
         """Test get_json returns correct JSON response"""
